@@ -1,0 +1,57 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#FAD3E3",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "pages": [
+   
+    "pages/index/index",
+    "pages/delivery/delivery",
+    "pages/myorder/myorder",
+    "pages/mydiscounts/mydiscounts",
+    "pages/logs/logs",
+    "pages/details/details",
+    "pages/coupons/coupons"
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FAD3E3",
+    "navigationBarTextStyle": "width"
+   
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "#FE7878",
+    "backgroundColor": "#DBDBDB",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页1.png",
+        "selectedIconPath": "images/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mydiscounts/mydiscounts",
+        "iconPath": "images/优惠券1.png",
+        "selectedIconPath": "images/优惠券.png",
+        "text": "每周优惠"
+      },
+      {
+        "pagePath": "pages/delivery/delivery",
+        "iconPath": "images/分类1.png",
+        "selectedIconPath": "images/分类.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/myorder/myorder",
+        "iconPath": "images/导航-个人中心1.png",
+        "selectedIconPath": "images/导航-个人中心.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

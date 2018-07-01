@@ -1,0 +1,52 @@
+<view class='figer'>
+  <image style='width:100%' src='{{img1}}' ></image>
+</view>
+<navigator url='../details/details?id=5' class='mian2'>
+  <view class='main2-img'>
+     <image src='{{img2}}' ></image>
+  </view>
+  <view class='main2-div'>
+    <view>薰衣草礼盒：进口薰衣草永生花</view>
+    <view>
+       <text class='money'>￥300.00</text>
+       <text class='main2-text'>销量:<text>0</text></text>
+    </view>
+  </view>
+</navigator>
+
+<navigator url='../details/details?id=6' class='mian2'>
+  <view  class='main2-img'>
+     <image src='{{img3}}'></image>
+  </view>
+  <view class='main2-div'>
+    <view>甜蜜物语---戴安娜粉玫瑰33支，粉色...</view>
+    <view class='main2-text'>
+       <text  class='money'>￥300.00</text>
+       <text  class='main2-text'>销量:<text>0</text></text>
+    </view>
+  </view>
+</navigator>
+<view class='mian2'>
+  <view  class='main2-img'>
+     <image src='{{img4}}'></image>
+  </view>
+  <view class='main2-div'>
+    <view>薰衣草礼盒：进口薰衣草永生花</view>
+    <view>
+       <text class='money'>￥300.00</text>
+       <text  class='main2-text'>销量:<text>0</text></text>
+    </view>
+  </view>
+</view>
+<view class='mian2'>
+  <view  class='main2-img'>
+     <image src='{{img5}}'></image>
+  </view>
+  <view class='main2-div'>
+    <view>薰衣草礼盒：进口薰衣草永生花</view>
+    <view>
+       <text class='money'>￥300.00</text>
+       <text  class='main2-text'>销量:<text>0</text></text>
+    </view>
+  </view>
+</view>

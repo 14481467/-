@@ -1,0 +1,70 @@
+<!-- <view wx:if="{{isShow}}" wx:for="{{duanziList}}" wx:key="{{item.user_id}}">
+    <view class='iconfont icon-wode user'><text>用户：</text> <text>{{item.name}}</text></view>
+    <view>{{item.text}}</view>
+</view> -->
+
+
+ <!-- <view wx:for="{{duanziList}}" wx:key="{{item.id}}">  -->
+  <view class='top'>
+    <image src='{{imgUrl}}{{duanziList[0].img.img1}}'></image>
+  </view>
+  <view class='mydiv'>
+    <view class='mytext1'>{{duanziList[0].describe}}</view>
+    <view class='money'>￥
+      <text>{{duanziList[0].money}}</text>
+    </view>
+    <view class='mytext1'>库存
+      <text>{{duanziList[0].save}} </text>运费：包邮</view>
+  </view>
+  <view class='mydiv2'>
+    <view class='mytext1 mainTop'>
+      <view class='line'></view>
+      <text class='iconfont icon-dingdan mytext1'></text> 详情
+      <view class='line'></view>
+    </view>
+    <view>
+      <image class='mydiv2-img1' src='{{imgUrl}}{{duanziList[0].img.img2}}'></image>
+      <image src='{{imgUrl}}{{duanziList[0].img.img3}}'></image>
+      <image src='{{imgUrl}}{{duanziList[0].img.img4}}'></image>
+      <image class='myimg1' src='{{imgUrl}}{{duanziList[0].img.img5}}'></image>
+    </view>
+  </view>
+ <!-- </view>  -->
+
+<view class='mybut'>
+  <navigator class='ShopCar'>
+    <view class='iconfont icon-xiazai1' style="color:{{color}}"></view> 购物车</navigator>
+  <view class='collect' catchtap='collect'>
+    <view class='iconfont icon-shoucang ' style='color:{{color2}}'></view> 收藏</view>
+  <view class='joinShopCar' catchtap='joinShopCar'>加入购物车</view>
+  <view class='shop'>立刻购买</view>
+</view>
+
+<view wx:if="{{isShowToast}}" catchtap='btn_toast' class='btn_toast'>
+  <view class='mymodel'>
+    <view class='mymodel2'>
+      <image class='model-img1' src='{{img1}}'></image>
+      <view class='mytext1'>佳期如梦--永生花盒...
+        <view style='color: #FF7100;'>￥336.00</view>
+      </view>
+      <text class='iconfont icon-guanbixianshi' catchtap='myclose'></text>
+    </view>
+    <view class='mymodel3'>
+      <view class='shuliang'>
+        <text>数量</text>
+      </view>
+      <view class='mytext1'>库存200</view>
+      <view class='mytext1'>
+        <view catchtap='mysubtract'>-</view>
+        <view class='sum'>{{sum}}</view>
+        <view catchtap='myadd'>+</view>
+      </view>
+    </view>
+    <view class='mymodel4'></view>
+
+    <view class='cat_btn' catchtap='subtractCat'>
+      <view>加入购物车</view>
+    </view>
+
+  </view>
+</view>

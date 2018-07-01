@@ -1,0 +1,43 @@
+.myfig {
+  width: 100%;
+}
+
+.myfig>image {
+  width: 100%;
+  height: 170px;
+}
+
+.main2 {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.main2-D{
+  width: 44%;
+  padding: 2% 2%;
+}
+.main2-D>image{
+  width: 100%;
+  height: 160px;
+}
+.main2-div {
+  /* width: 100%; */
+  color: grey;
+  text-align: center;
+  font-size: 14px;
+}
+
+.main2-div>view {
+  line-height: 30px;
+}
+
+.main2-text {
+   color: #BFBFBF;
+}
+
+.money {
+  color:  #FF7100;
+  margin-right: 15%;
+}

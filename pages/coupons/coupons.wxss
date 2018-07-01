@@ -1,0 +1,83 @@
+/* pages/coupons/coupons.wxss */
+
+@import "../../utils/iconfont2.wxss";
+
+.mydiv {
+  height: 600px;
+  width: 100%;
+  background-color: #fcdecd;
+  padding:3% 3%;
+}
+
+.main1,.main {
+  width: 84%;
+  color: gray;
+  font-size: 15px;
+  padding:5% 5%;
+  background-color: white; 
+}
+.main1{
+ border-bottom: dashed 1px gray;
+}
+
+.main1>image {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.mybox1,.mybox2 {
+  width: 10px;
+  height: 10px;
+  background-color:  #fcdecd;
+  position: absolute;
+}
+.mybox1{
+  border-radius: 0 4px 4px 0;
+  left:2.2%;
+  top: 68px;
+}
+.mybox2{
+  border-radius: 4px 0 0 4px;
+  right:2.3%;
+  top:68px;
+}
+
+.main {
+  color: #454545;
+  font-size: 16px;
+}
+
+.main>text {
+  color: gray;
+  font-size: 15px;
+}
+.myarrow{
+  padding-left: 180px;
+  display: inline-block;
+  color: gray;
+}
+button{
+  color:white; 
+  width: 40%;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  border: none;
+  background-color: #B6B6B6;
+}
+.mytitel{
+  font-size: 22px;
+  text-align: center;
+}
+.mybtn{
+  width: 94%;
+  padding: 0;
+}
+.mysite{
+  margin-top: 3px;
+}
+.line{
+  border-bottom: 1px solid gainsboro;
+}

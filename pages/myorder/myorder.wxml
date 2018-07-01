@@ -1,0 +1,35 @@
+
+<view class='mytop'>
+  <view class='myrgba'>
+    <!-- <image class='img1' src='{{img1}}' ></image> -->
+    <text class='iconfont icon-geren5 myfont'></text>
+    <text class='myfont2'>14481467</text>
+    <text class='iconfont icon-arrow-right'></text>
+  </view>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-dingdan'></text>
+  <text>我的订单</text>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-shouhuodizhi'></text>
+  <text>收货地址</text>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-xiazai1'></text>
+  <text>购物车</text>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-shoucang'></text>
+  <text>收藏</text>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-tongzhi'></text>
+  <text>系统通知</text>
+</view>
+<view class='myiconfont'>
+  <text  class='iconfont icon-huiyuan'></text>
+  <text>会员卡</text>
+</view>
+
+ 

@@ -1,0 +1,83 @@
+<!--index.wxml-->
+<view style='width:100%'>
+  <swiper indicator-dots="true" autoplay="true" duration="{{duration}}" style='height:200px'>
+    <block wx:for="{{imgUrls}}" wx:key="{{imgUrls.id}}">
+      <swiper-item style='height:200px'>
+        <image class='myimg' style='width:100%;height:250px' src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='main1-left'>
+  <navigator url="../delivery/delivery" open-type='switchTab'>
+    <image class='img1' src='{{img1}}'></image>
+  </navigator>
+  <!-- <image class='img1' src='{{img1}}'></image> -->
+  <view class='main1-rigth'>
+    <navigator url="/pages/mydiscounts/mydiscounts" open-type="switchTab">
+      <image src='{{img2}}'></image>
+    </navigator>
+
+    <navigator url="/pages/coupons/coupons" open-type="navigate">
+      <image src='{{img3}}'></image>
+    </navigator>
+
+  </view>
+</view>
+
+<navigator url="../details/details?id=1" open-type='navigate'>
+  <view class='main2'>
+    <view class='main2-left'>
+      <image class='main2-img1' src='{{img4}}'></image>
+      <image class='main2-img2' src='{{img5}}'></image>
+    </view>
+    <view class='main2-right'>
+      <view class='main2-right-text1'>玫瑰</view>
+      <view>有关爱情</view>
+      <view>if u love so meone</view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="../details/details?id=2" open-type='navigate'>
+  <view class='main2'>
+    <view class='main2-right'>
+      <view class='main2-right-text1'>绣球</view>
+      <view>希望</view>
+      <view>to see the world</view>
+    </view>
+    <view class='main2-left'>
+      <image class='main2-img1' src='{{img6}}'></image>
+      <image class='main2-img2' src='{{img7}}'></image>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="../details/details?id=3" open-type='navigate'>
+  <view class='main2'>
+    <view class='main2-left'>
+      <image class='main2-img1' src='{{img8}}'></image>
+      <image class='main2-img2' src='{{img9}}'></image>
+    </view>
+    <view class='main2-right'>
+      <view class='main2-right-text1'>芍药</view>
+      <view>热情</view>
+      <view>be distressed parting </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="../details/details?id=4" open-type='navigate'>
+  <view class='main2'>
+    <view class='main2-right'>
+      <view class='main2-right-text1'>郁金香</view>
+      <view>优雅</view>
+      <view>Be distressed parting </view>
+    </view>
+    <view class='main2-left'>
+      <image class='main2-img1' src='{{img10}}'></image>
+      <image class='main2-img2' src='{{img11}}'></image>
+    </view>
+  </view>
+</navigator>

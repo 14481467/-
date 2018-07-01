@@ -1,0 +1,35 @@
+<!--优惠券-->
+<view class='mydiv'>
+  <view class='main1'>
+    <image src='{{img1}}'></image>
+    <text>鲜花Lite</text>
+  </view>
+  <view class='mybox1'></view>
+  <view class='mybox2'></view>
+  <view class='main mytitel'>鲜花优惠</view>
+  <view class='main mybtn'>
+    <button>已下架</button>
+  </view>
+  <view class='main'>使用条件：
+    <text>满</text>
+    <text>200</text>
+    <text>元,减</text>
+    <text>10元</text>
+  </view>
+  <view class='main'>使用时间：
+    <text>2018-5-20</text>
+    <text>到</text>
+    <text>2018-6-20。</text>
+  </view>
+  <view class='main mysite line '>店铺地址：
+    <text>成都市天府三街</text>
+  </view>
+  <view class='main line'>联系电话：
+    <text>18822288811</text>
+  </view>
+  <view class='main'>返回首页：
+    <navigator class='myarrow' url='../index/index' open-type='switchTab'>
+    <text class='iconfont icon-arrow-right '></text>
+    </navigator> 
+  </view>
+</view>

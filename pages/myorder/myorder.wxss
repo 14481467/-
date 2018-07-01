@@ -1,0 +1,50 @@
+/* pages/myorder/myorder.wxss */
+@import "../../utils/iconfont.wxss";
+@import "../../utils/iconfont2.wxss";
+@import "../../utils/iconfont3.wxss";
+.mytop{
+  background-image: url("https://goss.veer.com/creative/vcg/veer/800water/veer-133724084.jpg");
+  background-size: 120%  200%;
+  width: 100%;
+}
+.iconfont{
+  margin-right: 15px;
+  color: #EA78B8;
+}
+.myrgba{
+width:345px;
+padding: 15px 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: rgba(0,0,0,.3);
+}
+.myrgba>text{
+color: white;
+}
+
+.myfont{
+  font-size: 52px;
+}
+.myfont2{
+  margin-right: 120px
+}
+.img1{
+  width: 50px;
+  height: 50px;
+
+}
+.more{
+  font-size: 18px
+}
+.img2{
+  width: 20px;
+  height: 20px;
+}
+.myiconfont{
+  color: #434343;
+  font-size: 16px;
+  padding: 5% 5%;
+  border-bottom: 1px solid #DEDEDE;
+}

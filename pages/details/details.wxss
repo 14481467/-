@@ -1,0 +1,183 @@
+/* pages/details/details.wxss */
+@import "../../utils/iconfont.wxss";
+@import "../../utils/iconfont3.wxss";
+
+.top {
+  width: 100%;
+  text-align: center;
+}
+
+.top>image {
+  width: 90%;
+  height: 360px;
+}
+
+.mydiv, .mydiv2 {
+  padding: 4% 4%;
+}
+
+.mytext1 {
+  font-size: 15px;
+  color: #626262;
+}
+
+.money {
+  color: #ff7100;
+  margin: 8px 0;
+}
+
+.line {
+  display: inline-block;
+  width: 80px;
+  border-bottom: 1px solid gainsboro;
+  vertical-align: middle;
+}
+
+.mainTop {
+  margin-bottom: 20px;
+}
+
+.mydiv2 {
+  text-align: center;
+}
+
+.mybut {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+.mybut>view, .mybut>navigator {
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.mybut .iconfont {
+  font-size: 25px;
+}
+
+.ShopCar {
+  background-color: white;
+  border-top: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  width: 15.7%;
+}
+
+.collect {
+  background-color: white;
+  border-top: 1px solid gainsboro;
+  width: 16%;
+}
+
+.joinShopCar {
+  background-color: #f5a623;
+  border-top: 1px solid #f5a623;
+  width: 34%;
+  line-height: 50px;
+  color: white;
+}
+
+.shop {
+  background-color: #ff7100;
+  border-top: 1px solid #ff7100;
+  width: 34%;
+  line-height: 50px;
+  color: white;
+}
+
+.btn_toast {
+  width: 100%;
+  height: 610px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mymodel {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.mymodel2, .mymodel3 {
+  text-align: right;
+  height: 50px;
+  padding: 3% 2%;
+  border-bottom: 1px solid gainsboro;
+}
+
+.model-img1 {
+  width: 85px;
+  height: 95px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  position: absolute;
+  left: 4%;
+  top: -26px;
+}
+
+.mymodel2>.mytext1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25%;
+  text-align: left;
+  width: 40%;
+}
+
+.mymodel3 {
+  text-align: left;
+  height: 30px;
+   padding: 5% 3%; 
+}
+
+.mymodel3>view {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shuliang {
+  color: #373737;
+  font-size: 18px;
+  margin-right: 40%;
+}
+
+.mymodel3>.mytext1 {
+  margin-left: 10px;
+}
+
+.mymodel3>.mytext1>view {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  background-color: gainsboro;
+  line-height: 25px;
+}
+
+.mymodel3>.mytext1>.sum {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  width: 28px;
+}
+
+.mymodel4 {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+}
+
+.cat_btn {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff7100;
+  text-align: center;
+  color: white;
+}
